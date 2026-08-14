@@ -1,0 +1,48 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "env": {
+    "DATABASE_URL": {
+      "description": "PostgreSQL database connection string"
+    },
+    "DIRECT_URL": {
+      "description": "Direct database connection for migrations"
+    },
+    "JWT_SECRET": {
+      "description": "JWT signing secret"
+    },
+    "JWT_REFRESH_SECRET": {
+      "description": "JWT refresh token secret"
+    },
+    "NEXTAUTH_SECRET": {
+      "description": "NextAuth secret"
+    },
+    "CRON_SECRET": {
+      "description": "Cron job authentication secret"
+    },
+    "GEMINI_API_KEY": {
+      "description": "Google Gemini API key"
+    },
+    "RESEND_API_KEY": {
+      "description": "Resend email API key"
+    },
+    "EMAIL_FROM": {
+      "description": "Sender email address"
+    },
+    "BLOB_READ_WRITE_TOKEN": {
+      "description": "Vercel Blob storage token"
+    },
+    "NEXT_PUBLIC_APP_URL": {
+      "description": "Application URL"
+    }
+  },
+  "regions": ["iad1"],
+  "functions": {
+    "src/app/api/**/*.js": {
+      "maxDuration": 30,
+      "memory": 1024
+    }
+  }
+}
