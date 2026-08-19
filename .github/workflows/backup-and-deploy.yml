@@ -11,7 +11,7 @@
 
   - name: Create DB dump and push to backup branch
     env:
-      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+      DATABASE_URL: ${{ postgresql://neondb_owner:npg_DHSxaTPCm47t@ep-little-butterfly-atvzkkl2-pooler.c-9.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require }}
     run: |
       set -euo pipefail
       TIMESTAMP=$(date -u +"%Y-%m-%dT%H-%M-%SZ")
