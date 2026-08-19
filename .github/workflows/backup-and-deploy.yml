@@ -1,0 +1,61 @@
+  - name: Setup Node.js
+    uses: actions/setup-node@v4
+    with:
+      node-version: '18'
+
+  - name: Install dependencies
+    run: npm ci
+
+  - name: Install PostgreSQL client
+    run: sudo apt-get update && sudo apt-get install -y postgresql-client
+
+  - name: Create DB dump and push to backup branch
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+    run: |
+      set -euo pipefail
+      TIMESTAMP=$(date -u +"%Y-%m-%dT%H-%M-%SZ")
+      DUMP_DIR=backup
+      DUMP_FILE="$DUMP_DIR/db-dump-$TIMESTAMP.dump"
+      mkdir -p "$DUMP_DIR"
+      echo "Creating DB dump to $DUMP_FILE"
+      pg_dump "$DATABASE_URL" -Fc -f "$DUMP_FILE"
+
+      echo "Creating git branch backup-before-deploy-$TIMESTAMP and committing dump"
+      git config user.name "github-actions[bot]"
+      git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      git checkout -b "backup-before-deploy-$TIMESTAMP"
+      git add "$DUMP_FILE"
+      git commit -m "backup(db): db dump before deploy $TIMESTAMP"
+      git push -u origin HEAD
+
+  - name: Apply Prisma migrations to live DB
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+    run: |
+      set -euo pipefail
+      echo "Applying Prisma migrations (prisma migrate deploy)"
+      npx prisma migrate deploy
+
+  - name: Generate Prisma client
+    run: npx prisma generate
+
+  - name: Build Next.js
+    run: npm run build
+
+  - name: Create tag for deploy
+    run: |
+      TIMESTAMP=$(date -u +"%Y-%m-%dT%H-%M-%SZ")
+      TAG="deploy-$TIMESTAMP"
+      git tag "$TAG"
+      git push origin "$TAG"
+
+  - name: Upload build artifact
+    uses: actions/upload-artifact@v4
+    with:
+      name: next-build
+      path: .next
+
+  - name: Note
+    run: |
+      echo "Workflow finished. If Vercel is configured to deploy on pushes to main or tags, deployment should begin automatically."
