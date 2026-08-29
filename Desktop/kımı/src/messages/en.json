@@ -1,0 +1,105 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "stats": "Statistics",
+    "portfolio": "Portfolio",
+    "calculator": "Calculator",
+    "about": "About",
+    "blog": "Blog",
+    "careers": "Careers",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "dashboard": "Dashboard",
+    "login": "Login",
+    "menu": "Menu"
+  },
+  "hero": {
+    "badge": "Digital Marketing Agency",
+    "title": "Empower Your\nDigital Presence",
+    "subtitle": "Strategic digital marketing solutions that grow, transform, and elevate your brand.",
+    "cta_primary": "Start a Project",
+    "cta_secondary": "View Portfolio"
+  },
+  "services": {
+    "badge": "Our Services",
+    "title": "Our Services",
+    "subtitle": "By your side at every stage of your brand",
+    "social_media": {
+      "title": "Social Media Management & SMM",
+      "description": "Content strategy, community management, and growth tactics to elevate your brand."
+    },
+    "targeting": {
+      "title": "Targeted Ads (Targeting & Performance)",
+      "description": "Precision audience targeting, pixel integration, and maximum ROAS on Meta, TikTok, and Google."
+    },
+    "production": {
+      "title": "Professional Video & Photo Production",
+      "description": "Studio & on-location shooting, 4K product showcases, cinematic editing, and color grading."
+    },
+    "reels": {
+      "title": "Viral Reels & TikTok Creation",
+      "description": "High-converting short-form videos with viral hooks that command millions of views."
+    },
+    "influencer": {
+      "title": "Influencer Marketing & PR",
+      "description": "High-impact creator partnerships and brand ambassador programs that drive sales."
+    },
+    "seo": {
+      "title": "SEO & Organic Growth",
+      "description": "Technical SEO, content optimization, and backlink strategies to rank on Google Page 1."
+    },
+    "ads": {
+      "title": "Digital Advertising & Media Buying",
+      "description": "Data-driven ROI campaigns across Google Ads, YouTube, and programmatic ad channels."
+    },
+    "branding": {
+      "title": "360° Brand Strategy",
+      "description": "Brand identity, positioning, and storytelling that sets you apart from competitors."
+    },
+    "web": {
+      "title": "Ultra-Modern Web Experiences",
+      "description": "High-speed, 3D interactive, conversion-optimized websites built for high growth."
+    }
+  },
+  "stats": {
+    "clients": "Happy Clients",
+    "projects": "Projects Completed",
+    "growth": "Avg. Growth",
+    "team": "Expert Team"
+  },
+  "portfolio": {
+    "title": "Selected Works",
+    "subtitle": "Projects that speak through results",
+    "view_case": "View Case Study"
+  },
+  "cta": {
+    "title": "Let's Grow Your Brand",
+    "title_highlight": "Together",
+    "subtitle": "You need the right digital strategy to make an impact. Meet our expert team and unlock your brand's true potential.",
+    "button_primary": "Get Free Consultation",
+    "button_secondary": "Explore Pricing"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Let's discuss your new project",
+    "form": {
+      "name": "Your Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Your Message",
+      "submit": "Send",
+      "success": "Your message has been sent successfully! We will get back to you soon.",
+      "error": "An error occurred. Please try again."
+    }
+  },
+  "footer": {
+    "tagline": "The most reliable way to grow your brand in the digital world.",
+    "rights": "All rights reserved.",
+    "links": {
+      "company": "Company",
+      "services": "Services",
+      "legal": "Legal"
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "nav": {
+    "home": "Ana Səhifə",
+    "services": "Xidmətlər",
+    "stats": "Statistika",
+    "portfolio": "Portfel",
+    "calculator": "Kalkulyator",
+    "about": "Haqqımızda",
+    "blog": "Bloq",
+    "careers": "Karyera",
+    "pricing": "Qiymətlər",
+    "contact": "Əlaqə",
+    "dashboard": "Panel",
+    "login": "Daxil Ol",
+    "menu": "Menyu"
+  },
+  "hero": {
+    "badge": "Rəqəmsal Marketinq Agentliyi",
+    "title": "Rəqəmsal Mövcudluğunuzu\nGücləndirin",
+    "subtitle": "Brendinizi böyüdən, transformasiya edən və önə çıxaran strateji rəqəmsal marketinq həlləri.",
+    "cta_primary": "Layihəyə Başla",
+    "cta_secondary": "Portfelə Bax"
+  },
+    "services": {
+    "badge": "Xidmətlərimiz",
+    "title": "Xidmətlərimiz",
+    "subtitle": "Brendinizin hər mərhələsində yanınızdayıq",
+    "social_media": {
+      "title": "Sosial Media İdarəetməsi & SMM",
+      "description": "Məzmun strategiyası, icma idarəetməsi və inkişaf taktikaları ilə brendinizi sosial platformalarda zirvəyə daşıyırıq."
+    },
+    "targeting": {
+      "title": "Hədəfli Reklam (Targeting & Performance)",
+      "description": "Meta, TikTok və Google platformalarında A/B testləri, pixel quraşdırması və dəqiq hədəf kütləsi ilə maksimum satış (ROAS)."
+    },
+    "production": {
+      "title": "Peşəkar Foto & Video Çəkilişlər",
+      "description": "Studio və məkan çəkilişləri, 4K keyfiyyətli məhsul təqdimatları, dinamik kadrlar və montaj xidmətləri."
+    },
+    "reels": {
+      "title": "Viral Reels & TikTok Məzmunu",
+      "description": "Alqoritmləri fəth edən, trend musiqilər və cəlbedici ssenarilərlə milyonlarla baxış toplayan qısa video formatları."
+    },
+    "influencer": {
+      "title": "İnfluencer Marketing & PR",
+      "description": "Sektorunuza uyğun mikro və makro influenserlərlə əməkdaşlıq, brend elçiliyi və effektiv inteqrasiyalar."
+    },
+    "seo": {
+      "title": "SEO və Üzvi İnkişaf",
+      "description": "Texniki SEO, məzmun optimallaşdırması və backlink strategiyaları ilə axtarış sistemlərində ön sıralarda yer alın."
+    },
+    "ads": {
+      "title": "Rəqəmsal Reklam & Media Planlama",
+      "description": "Google Ads, YouTube və proqramatik reklamçılıq ilə büdcənizin hər qəpiyini dəyərə çeviririk."
+    },
+    "branding": {
+      "title": "360° Brend Strategiyası",
+      "description": "Brend kimliyi, mövqeləndirmə və hekayəçilik ilə rəqiblərinizdən tamamilə fərqlənin."
+    },
+    "web": {
+      "title": "Ultra-Modern Veb Həllər",
+      "description": "Yüksək sürətli, 3D interaktiv detallara və güclü konversiya strukturuna malik premium vebsaytlar."
+    }
+  },
+  "stats": {
+    "clients": "Məmnun Müştəri",
+    "projects": "Tamamlanmış Layihə",
+    "growth": "Orta Statistik Artım",
+    "team": "Ekspert Komanda"
+  },
+  "portfolio": {
+    "title": "Seçilmiş İşlər",
+    "subtitle": "Nəticələri ilə fərqlənən layihələr",
+    "view_case": "Layihə İcmalı"
+  },
+  "cta": {
+    "title": "Brendinizi Birlikdə",
+    "title_highlight": "Böyüdək",
+    "subtitle": "Rəqəmsal dünyada fərq yaratmaq üçün doğru strategiyaya ehtiyacınız var. Peşəkar komandamızla tanış olun və potensialınızı kəşf edin.",
+    "button_primary": "Ödənişsiz Məsləhət Al",
+    "button_secondary": "Qiymət Təklifi Al"
+  },
+  "contact": {
+    "title": "Bizimlə Əlaqə",
+    "subtitle": "Yeni layihənizi müzakirə edək",
+    "form": {
+      "name": "Adınız",
+      "email": "E-poçt",
+      "subject": "Mövzu",
+      "message": "Mesajınız",
+      "submit": "Göndər",
+      "success": "Mesajınız uğurla göndərildi! Ən qısa zamanda sizinlə əlaqə saxlayacağıq.",
+      "error": "Xəta baş verdi. Zəhmət olmasa yenidən cəhd edin."
+    }
+  },
+  "footer": {
+    "tagline": "Rəqəmsal dünyada brendinizi inkişaf etdirməyin ən etibarlı yolu.",
+    "rights": "Bütün hüquqlar qorunur.",
+    "links": {
+      "company": "Şirkət",
+      "services": "Xidmətlər",
+      "legal": "Hüquqi"
+    }
+  }
+}

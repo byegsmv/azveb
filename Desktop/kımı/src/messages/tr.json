@@ -1,0 +1,105 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "services": "Hizmetler",
+    "stats": "İstatistikler",
+    "portfolio": "Portfolyo",
+    "calculator": "Hesaplayıcı",
+    "about": "Hakkımızda",
+    "blog": "Blog",
+    "careers": "Kariyer",
+    "pricing": "Fiyatlandırma",
+    "contact": "İletişim",
+    "dashboard": "Panel",
+    "login": "Giriş Yap",
+    "menu": "Menü"
+  },
+  "hero": {
+    "badge": "Dijital Pazarlama Ajansı",
+    "title": "Dijital Varlığınızı\nGüçlendirin",
+    "subtitle": "Markanızı büyüten, dönüştüren ve öne çıkaran stratejik dijital pazarlama çözümleri.",
+    "cta_primary": "Projeye Başla",
+    "cta_secondary": "Portfolyoyu İncele"
+  },
+  "services": {
+    "badge": "Hizmetlerimiz",
+    "title": "Hizmetlerimiz",
+    "subtitle": "Markanızın her aşamasında yanınızdayız",
+    "social_media": {
+      "title": "Sosyal Medya Yönetimi & SMM",
+      "description": "İçerik stratejisi, topluluk yönetimi ve büyüme taktikleriyle markanızı zirveye taşıyoruz."
+    },
+    "targeting": {
+      "title": "Hedefli Reklam (Targeting & Performance)",
+      "description": "Meta, TikTok ve Google platformlarında veri odaklı hedefleme, piksel kurulumu ve yüksek ROAS."
+    },
+    "production": {
+      "title": "Profesyonel Fotoğraf & Video Çekimleri",
+      "description": "Stüdyo ve dış çekimler, 4K ürün ve mekan videoları, sinematik kurgu ve post-prodüksiyon."
+    },
+    "reels": {
+      "title": "Viral Reels & TikTok Üretimi",
+      "description": "Trend müzikler, dikkat çekici kancalar (hooks) ve milyonlarca izlenme alan kreatif dikey videolar."
+    },
+    "influencer": {
+      "title": "Influencer Pazarlaması & PR",
+      "description": "Doğru kitleye sahip fenomenlerle stratejik iş birlikleri ve marka elçiliği projeleri."
+    },
+    "seo": {
+      "title": "SEO & Organik Büyüme",
+      "description": "Teknik SEO, içerik optimizasyonu ve backlink stratejileriyle arama motorlarında ilk sırada yer alın."
+    },
+    "ads": {
+      "title": "Dijital Reklamcılık & Medya Planlama",
+      "description": "Google Ads, YouTube ve programatik reklamlarla bütçenizi maksimum getiriye dönüştürün."
+    },
+    "branding": {
+      "title": "360° Marka Stratejisi",
+      "description": "Marka kimliği, kurumsal duruş ve hikaye anlatımıyla rakiplerinizden ayrışın."
+    },
+    "web": {
+      "title": "Ultra-Modern Web Çözümleri",
+      "description": "Yüksek hızlı, interaktif 3D detaylara ve satış odaklı mimariye sahip web siteleri."
+    }
+  },
+  "stats": {
+    "clients": "Mutlu Müşteri",
+    "projects": "Tamamlanan Proje",
+    "growth": "Ortalama Büyüme",
+    "team": "Uzman Ekip"
+  },
+  "portfolio": {
+    "title": "Seçilmiş Çalışmalar",
+    "subtitle": "Sonuçları konuşan projeler",
+    "view_case": "Vaka İncelemesi"
+  },
+  "cta": {
+    "title": "Markanızı Birlikte",
+    "title_highlight": "Büyütelim",
+    "subtitle": "Dijital dünyada fark yaratmak için doğru stratejiye ihtiyacınız var. Uzman ekibimizle tanışın ve potansiyelinizi keşfedin.",
+    "button_primary": "Ücretsiz Danışmanlık Al",
+    "button_secondary": "Fiyatlandırmayı İncele"
+  },
+  "contact": {
+    "title": "Bize Ulaşın",
+    "subtitle": "Yeni projenizi konuşalım",
+    "form": {
+      "name": "Adınız",
+      "email": "E-posta",
+      "subject": "Konu",
+      "message": "Mesajınız",
+      "submit": "Gönder",
+      "success": "Mesajınız başarıyla gönderildi! En kısa sürede size dönüş yapacağız.",
+      "error": "Bir hata oluştu. Lütfen tekrar deneyin."
+    }
+  },
+  "footer": {
+    "tagline": "Dijital dünyada markanızı büyütmenin en güvenilir yolu.",
+    "rights": "Tüm hakları saklıdır.",
+    "links": {
+      "company": "Şirket",
+      "services": "Hizmetler",
+      "legal": "Yasal"
+    }
+  }
+}
