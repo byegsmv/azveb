@@ -1534,7 +1534,7 @@ export default function MakeMePulseInteractiveExperience() {
           </div>
         </div>
 
-        {/* 30 MASTER ENGINE SWITCHER PILL */}
+        {/* Dynamic Mode Switcher Pill */}
         <div className="pointer-events-auto flex items-center gap-2 p-2 rounded-2xl bg-black/60 backdrop-blur-xl border border-white/10 interactive-action">
           <button
             onClick={(e) => {
@@ -1548,18 +1548,6 @@ export default function MakeMePulseInteractiveExperience() {
             <Dice5 className="w-3.5 h-3.5 text-cyan-400" />
             <span className="hidden sm:inline">EFEKT #{currentEngine.id}:</span> {currentEngine.name.toUpperCase()}
           </button>
-        </div>
-
-        {/* Admin Link Pill */}
-        <div className="pointer-events-auto interactive-action">
-          <a
-            href="/admin/login"
-            target="_blank"
-            className="px-4 py-2.5 rounded-2xl bg-black/70 border border-white/15 hover:bg-white/10 text-xs font-mono text-white/70 hover:text-white backdrop-blur-2xl transition-all shadow-xl flex items-center gap-1.5"
-          >
-            <ShieldCheck className="w-3.5 h-3.5 text-indigo-400" />
-            Admin
-          </a>
         </div>
       </header>
 
@@ -1620,9 +1608,9 @@ export default function MakeMePulseInteractiveExperience() {
             </div>
 
             <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-white/40 gap-4">
-              <span>Bakı şəh., Azure Business Center • info@azveb.com</span>
+              <span>Bakı şəh., Azure Business Center • bygsmv@gmail.com • +994 77 346 36 89</span>
               <a
-                href="https://wa.me/994501234567"
+                href="https://wa.me/994773463689"
                 target="_blank"
                 className="px-6 py-2.5 rounded-xl bg-emerald-500 text-black font-extrabold text-xs shadow-lg shadow-emerald-500/25"
               >
@@ -1961,7 +1949,7 @@ export default function MakeMePulseInteractiveExperience() {
               </div>
 
               <div className="pt-4 border-t border-white/10 flex items-center justify-between text-xs text-white/50">
-                <span>Admin paneldən idarə olunur.</span>
+                <span>Rəsmi Əl İşləri Qalereyası</span>
                 <span className="text-pink-400 font-bold">AZVEB MEDIA</span>
               </div>
             </motion.div>
@@ -2036,7 +2024,7 @@ export default function MakeMePulseInteractiveExperience() {
               </div>
 
               <a
-                href="https://wa.me/994501234567"
+                href="https://wa.me/994773463689"
                 target="_blank"
                 className="w-full py-4 rounded-xl bg-gradient-to-r from-purple-500 to-indigo-500 text-white font-extrabold text-xs flex items-center justify-center gap-2 shadow-lg shadow-purple-500/25"
               >
@@ -2089,14 +2077,14 @@ export default function MakeMePulseInteractiveExperience() {
                 <div className="space-y-4">
                   <div className="p-4 rounded-2xl bg-white/[0.03] border border-white/10 space-y-2 text-xs text-white/70">
                     <p><strong className="text-white">Fiziki Ünvan:</strong> Bakı şəh., Azure Business Center</p>
-                    <p><strong className="text-white">Rəsmi E-poçt:</strong> info@azveb.com</p>
-                    <p><strong className="text-white">Əlaqə Nömrəsi:</strong> +994 50 123 45 67</p>
+                    <p><strong className="text-white">Rəsmi E-poçt:</strong> bygsmv@gmail.com</p>
+                    <p><strong className="text-white">Əlaqə Nömrələri:</strong> +994 77 346 36 89 / +994 55 253 43 76</p>
                   </div>
 
                   <form
                     onSubmit={(e) => {
                       e.preventDefault();
-                      window.open("https://wa.me/994501234567", "_blank");
+                      window.open("https://wa.me/994773463689", "_blank");
                     }}
                     className="space-y-3"
                   >
